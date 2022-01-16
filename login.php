@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	
+	// user login check
 	// Check if user is already logged in
 	if(isset($_SESSION['loggedIn'])){
 		header('Location: index.php');
